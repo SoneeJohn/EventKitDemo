@@ -21,6 +21,7 @@
 		6A19EAF328C41351006B47D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		6A19EAF528C41351006B47D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A19EAF728C41351006B47D8 /* EventKitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EventKitDemo.entitlements; sourceTree = "<group>"; };
+		6A19EAFD28C4150D006B47D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		6A19EAEC28C41351006B47D8 /* EventKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6A19EAFD28C4150D006B47D8 /* Info.plist */,
 				6A19EAED28C41351006B47D8 /* AppDelegate.h */,
 				6A19EAEE28C41351006B47D8 /* AppDelegate.m */,
 				6A19EAF028C41351006B47D8 /* Assets.xcassets */,
@@ -270,6 +272,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EventKitDemo/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "EventKitDemo needs access to your calendars to display calendar information.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -294,6 +298,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EventKitDemo/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "EventKitDemo needs access to your calendars to display calendar information.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
